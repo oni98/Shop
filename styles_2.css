@@ -1,0 +1,114 @@
+h1 {
+	color: green;
+	font-family: Arial;
+  margin-top: 70px;
+}
+
+fieldset {
+	border-style: groove;
+	border-color: #9FF152;
+  width: 55%;
+  margin-left: 20%;
+}
+
+input {
+  font-family: Helvetica;
+  font-size: 80%;
+  width: 65%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input {
+	border : none;
+	border-bottom : 2px solid lightgrey;
+	border-radius : 4px;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+   /* box-shadow: 0 0 10px #719ECE;*/
+}
+
+label {
+	font-family: Arial;
+	font-size: 100%;
+	font-weight: bold;
+	color: #4CAF50;
+}
+button[type=submit], button[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.productList ul{  
+                background-color:#d6dee6; 
+                cursor:pointer;
+                    width: 75%;
+    margin-top: 0px;  
+           } 
+.productList li{  
+                padding:12px;
+                font-family: auto; 
+                display: block; 
+           }  
+
+#description {
+  margin-bottom: 0px;
+}
+
+nav#main-navigation{
+  background-color: #138e3c;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1;
+}
+
+nav#main-navigation > ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+nav#main-navigation > ul li{
+  display: inline-block;
+  padding:10px 25px;
+}
+nav#main-navigation > ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-transform: uppercase;
+}
+nav#main-navigation > ul li:hover{
+background-color: #333;
+}
+
+input.submit{
+  width: 100px; 
+  margin-left: 20%;
+}
+
+input.reset{
+  width: 100px; 
+  margin-left: 0%;
+}
+
+div#customer{
+      margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -75px;
+}
+
+.searchDate{
+  width: 30%;
+}
